@@ -12,7 +12,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm -u root install'
-                sh 'npm -u root install node'
             }
         }
         stage('Test'){
